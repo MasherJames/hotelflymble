@@ -36,7 +36,7 @@ const fetchHotels = async (dispatch) => {
 
 const deleteHotel = async (dispatch, hotelId) => {
 	try {
-		const response = await api.delete(`/hotls/${hotelId}`);
+		const response = await api.delete(`/hotels/${hotelId}`);
 
 		// Dispatch delete hotels
 		dispatch({
