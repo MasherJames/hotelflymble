@@ -14,6 +14,7 @@
 .figure {
     overflow: hidden;
     min-height: 11rem;
+    cursor: pointer;
     height: 100%;
 }
 
