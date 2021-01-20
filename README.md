@@ -1,12 +1,25 @@
-## How to run the project
+**Clone the project**
 
-[Clone the project here](https://github.com/MasherJames/hotelflymble).
+```
+git clone git@github.com:MasherJames/hotelflymble.git
+```
 
-### - Run `yarn` to install dependecies
-### - `yarn start` to view the project from the browser
+**Install Dependencies**
 
-         or
-### - Run `yarn build` to get an optimized build for the app
-### - Then `yarn add global server` (May require admin rights)
+```
+yarn
+```
 
-### - Lastly, `serve -s build` to view the production build from the browser.
+**Run app in development**
+
+```
+yarn start
+```
+
+**Run app with an optimized production build**
+
+```
+yarn build
+yarn add global server
+serve -s build
+```
