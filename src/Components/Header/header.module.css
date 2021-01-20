@@ -1,0 +1,48 @@
+.container {
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: #1b1b43;
+    color: #fff;
+    box-shadow: 0 4px 4px -1px rgba(27, 27, 67, 0.3);
+}
+
+.subContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem;
+    width: 100%;
+}
+
+.heading {
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.cartInfo {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.cartCount {
+    position: absolute;
+    padding: .1rem .35rem;
+    border-radius: 50%;
+    background-color: #f96825;
+    font-size: .8em;
+    right: -1rem;
+    top: -.45em;
+}

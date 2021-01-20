@@ -1,0 +1,52 @@
+.notificationWrapper {
+    top: 9.5rem;
+    right: 1rem;
+    position: fixed;
+    z-index: 1;
+    width: 20vw;
+}
+
+.alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20rem;
+    height: auto !important;
+    height: 3rem;
+    padding: 0.5rem 2rem;
+    font-size: 0.875rem;
+    transition: all 0.2s linear 0s;
+}
+
+.closeBtn {
+    border: none;
+    padding: 0 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+
+.closeBtn:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .notificationWrapper {
+        width: 30vw;
+        top: 5rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:767px) {
+    .notificationWrapper {
+        width: 50vw;
+        top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .notificationWrapper {
+        width: 50vw;
+        top: 5rem;
+    }
+}
